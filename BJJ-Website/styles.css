@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
+*{
+
+    /* set the defaults */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+
+/* -----------------------Header / Navbar Section---------------------------------- */
+/* Creates the navbar section */
+header{
+
+    background-color:#16425B;
+    height: 80px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* The container inside of the navbar */
+.navbar-container{
+
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Fit to 100% of the container */
+}
+
+/* Navbar links */
+header ul{
+
+    display: flex; /* sets the links in a row */
+    list-style-type: none; /* Gets rid of bullet points */
+}
+
+h2 a{
+
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none; /* Gets rid of underline */
+}
+
+header li a{
+
+    color: white;
+    text-decoration: none; /* Gets rid of underline */
+    padding: 0 15px; /* Add space between links */
+    font-weight: 600;
+    font-size: 1em;
+}
+
+header li a:hover{
+
+    color: #81c3d7;
+}
+
+/* -----------------------Hero Section---------------------------------- */
+
+.hero{
+
+    width: 100%;
+    height: 92vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(images/bjj-gym.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /* Display the contents in the hero section centred*/
+    
+}
+
+.text-content{
+
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.hero h1{
+
+    font-size: 4em;
+}
+
+.hero p{
+
+    font-size: 2em;
+}
+
+.hero span{
+
+    color: #81c3d7;
+}
+
+.buttons-container{
+
+    padding-top: 100px;
+}
+
+.buttons{
+
+    border: none;   
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button1 {
+     
+    color: #81c3d7; 
+    border: 2px solid #81c3d7;
+}
+
+.button2 {
+    
+    color: #81c3d7; 
+    border: 2px solid #81c3d7;
+}
+
+.button1:hover{
+
+    background-color: white;
+    color: #16425b;
+}
+
+.button2:hover{
+
+    background-color: white;
+    color: #16425b;
+}
+
+
+/* -----------------------Hero Section---------------------------------- */
+
+.about{
+
+    height: 45vh;
+    width: 100%;
+    background-color: #d9dcd6;
+}
+
+.about-content{
+
+    text-align: center;
+    padding-top: 90px;
+}
+
+.about h1{
+
+    font-size: 3em;
+    color: #16425B;
+}
+
+.about p{
+
+    font-size: 1.8em;
+    padding-top: 50px;
+}
+
+
+
+
+/* -----------------------Classes Section---------------------------------- */
+
+.classes{
+
+    height: 100vh;
+    width: 100%;
+    background-color: #16425B;
+}
+
+.classes-content{
+
+    
+    padding-top: 90px;
+}
+
+.classes h1{
+
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.classes-container{
+
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.classes-item{
+
+    
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.classes img{
+
+    display: block;
+    height: 300px; 
+    width: 400px; 
+}
+
+.class-info{
+
+    background: #d9dcd6; 
+    border-radius: 0 0 2px 2px;
+    padding: 1rem 2rem;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+
+/* -----------------------Timetable Section---------------------------------- */
+
+.schedule{
+
+    height: 100vh;
+    width: 100%;
+    background-color: #d9dcd6;
+}
+
+.schedule-content{
+
+    padding-top: 90px;
+}
+
+.schedule h1{
+
+    font-size: 3em;
+    color: #16425B;
+    text-align: center;
+}
+
+.schedule-table{
+
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+.schedule-table thead tr th{
+
+    border: 2px solid red;
+}
+
+.schedule-table tbody tr td{
+
+    border: 2px solid red;
+}
