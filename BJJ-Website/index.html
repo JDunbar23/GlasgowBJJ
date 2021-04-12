@@ -11,22 +11,25 @@
 
 <body>
 
-    <header>
-        <div class="navbar-container">
-            <h2 class="logo"><a href="index.html">Glasgow BJJ</a></h2>
-
-            <nav>
-                <ul>
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#classes">CLASSES</a></li>
-                    <li><a href="#schedule">SCHEDULE</a></li>
-                    <li><a href="#coaches">OUR COACHES</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-
+    <nav>
+        <div class="logo">
+            <h2><a href="index.html">GLASGOW BJJ</a></h2>
         </div>
-    </header>
+
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#coaches">Our Coaches</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 
 
     <section class="hero">
@@ -35,8 +38,8 @@
             <p>We welcome you to join our team and start your BJJ Journey with us.</p>
 
             <div class="buttons-container">
-                <button class="buttons button1">Get Started</button>
-                <button class="buttons button2">Learn More</button>
+                <button class="buttons button1"><a href="#schedule">Get Started</a></button>
+                <button class="buttons button2"><a href="#about">Learn More</a></button>
             </div>
         </div>
     </section>
@@ -170,11 +173,11 @@
                             </td>
                             <td>
                                 <strong>BJJ Kids</strong>
-                                <span>10:00 am - 12:00 am</span>
+                                <span>10:00 am - 12:00 pm</span>
                             </td>
                             <td>
                                 <strong>BJJ Kids</strong>
-                                <span>10:00 am - 12:00 am</span>
+                                <span>10:00 am - 12:00 pm</span>
                             </td>
                         </tr>
 
@@ -316,6 +319,29 @@
             </div>
         </div>
     </section>
+
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h1>CONTACT US</h1>
+            <div class="contact-container">
+
+                <form class="contact-form" action="#" method="POST">
+
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>Send Message</button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created By Jordan Dunbar</p>
+    </footer>
 
 
 
