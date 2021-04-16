@@ -155,6 +155,7 @@ nav.sticky ul li a{
     letter-spacing: 2px;
     text-decoration: underline;
     padding-top: 150px;
+    color: #3a7ca5;
 }
 
 .about .content{
@@ -197,6 +198,7 @@ nav.sticky ul li a{
     color: black;
     text-align: center;
     padding-bottom: 30px;
+    color: #3a7ca5;
 }
 
 
@@ -264,6 +266,7 @@ nav.sticky ul li a{
     color: black;
     text-align: center;
     padding-bottom: 30px;
+    color: #3a7ca5;
 }
 
 .schedule .content{
@@ -293,7 +296,7 @@ nav.sticky ul li a{
 .schedule-table thead tr th{
 
     border: 2px solid black;
-    background-color: #2f6690;
+    background-color: #3a7ca5;
     color: white;
 }
 
@@ -304,7 +307,7 @@ nav.sticky ul li a{
 
 .schedule-table .time{
 
-    background-color: #2f6690;
+    background-color: #3a7ca5;
     color: white;
 }
 
@@ -351,7 +354,7 @@ small{
     letter-spacing: 2px;
     text-decoration: underline;
     padding-top: 150px;
-    color: black;
+    color: #3a7ca5;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -416,7 +419,7 @@ small{
     letter-spacing: 2px;
     text-decoration: underline;
     padding-top: 150px;
-    color: black;
+    color: #3a7ca5;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -504,7 +507,7 @@ small{
     width: 400px;
     height: 50px;
     margin-top: 20px;
-    background-color: #2f6690;
+    background-color: #3a7ca5;
     color: white;
     border: none; 
     cursor: pointer;
@@ -524,7 +527,7 @@ footer{
 
 footer p{
 
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
     text-decoration: underline;
     padding-top: 5px;
@@ -723,4 +726,33 @@ footer p{
 
         margin-left: 1200px;
     }
+}
+
+
+
+
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,0px,0)
+    }
+
+    to {
+        transform: translate3d(0,-120px,0);
+        opacity: 1
+    }
+}
+
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
 }
